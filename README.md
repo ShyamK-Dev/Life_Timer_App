@@ -1,1 +1,1 @@
-# Life_Timer_App
+Life Timer is a web app designed to help you visualize and track the passage of time in your life. With an intuitive interface, it converts your age into a countdown of days, hours, minutes, and seconds. You can set milestones, track goals, and gain perspective on how time is spent. Whether for motivation or mindfulness, Life Timer helps you make every moment count, offering insights into your personal journey and encouraging you to live with purpose.
