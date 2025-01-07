@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Life Timer</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <link rel="icon" type="image/png" href="icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="icons/favicon.svg" />
+    <link rel="shortcut icon" href="icons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Life Timer" />
+    <link rel="manifest" href="icons/site.webmanifest" />
 </head>
+
 <body>
     <div class="background" id="backgroundimg">
         <div id="initialText" class="container">
@@ -15,41 +26,41 @@
         </div>
 
         <div id="afterDobBtn" class="container">
-          <div class="center">
-            <h1>How Much Life Journey Covered, Till Now</h1>
-            <div class="time-container">
-                <h2>
-                    <div id="year">0</div>
-                    Years
-                </h2>
-                <h2>
-                    <div id="month">0</div>
-                    Months
-                </h2>
-                <h2>
-                    <div id="day">0</div>
-                    Days
-                </h2>
-                <h2>
-                    <div id="hour">0</div>
-                    Hours
-                </h2>
-                <h2>
-                    <div id="minute">0</div>
-                    Minutes
-                </h2>
-                <h2>
-                    <div id="second">0</div>
-                    Seconds
-                </h2>
+            <div class="center">
+                <h1>How Much Life Journey Covered, Till Now</h1>
+                <div class="time-container">
+                    <h2>
+                        <div id="year">0</div>
+                        Years
+                    </h2>
+                    <h2>
+                        <div id="month">0</div>
+                        Months
+                    </h2>
+                    <h2>
+                        <div id="day">0</div>
+                        Days
+                    </h2>
+                    <h2>
+                        <div id="hour">0</div>
+                        Hours
+                    </h2>
+                    <h2>
+                        <div id="minute">0</div>
+                        Minutes
+                    </h2>
+                    <h2>
+                        <div id="second">0</div>
+                        Seconds
+                    </h2>
+                </div>
             </div>
-          </div>
         </div>
 
         <div class="settings">
             <i id="settingIcon" class="fa-solid fa-gear "></i>
             <div class="setting-content hide" id="settingContent">
-                <input type="date" id="dobInput"/>
+                <input type="date" id="dobInput" />
                 <button id="dobBtn">Add DOB</button>
             </div>
         </div>
@@ -58,4 +69,5 @@
     <script src="./index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 </body>
+
 </html>
